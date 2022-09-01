@@ -16,7 +16,6 @@ body {
 }
 
 main {
-    border: 1px solid red;
     max-width: 768px;
     margin: 0 auto;
 }
@@ -45,4 +44,52 @@ h1, p {
     cursor: pointer;
     text-transform: uppercase;
 
+}
+
+.bt-azul {
+    background-color: #4f6791;
+    color: #fff;
+    width: 40%;
+    margin-top: 40px;
+}
+
+.caixa {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#lista > li {
+    background-color: #dbdbdb;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.excluir {
+    background-color: #bdbcbc;
+    width: 16px;
+    height: 16px;
+    line-height: 0;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+#tarefa-nova {
+    background-color: #f1f1f1;
+    border: 3px solid #32cdac;
+    padding: 4px;
+    width: 80%;
+    height: 40px;
+    outline: none;
+    font-size: 14px;
+    color: #0f1726;
+    border-radius: 4px;
+    margin-top: 30px;
 }

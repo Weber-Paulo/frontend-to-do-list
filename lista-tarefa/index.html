@@ -13,28 +13,24 @@
 </head>
 
 <body>
-    <img  class="logo" src="logo.png" alt="logo da Ituring" />
+    <img class="logo" src="logo.png" alt="logo da Ituring" />
     <main>
-    <h1>Lista de tarefas</h1>
-    <p> Minha primeira lista de tarefas</p>
-    <input type="text" />
-    <button class="botao">Adicionar</button>
+        <h1>Lista de tarefas</h1>
+        <p> Minha primeira lista de tarefas</p>
+        <input type="text" id="tarefa-nova"/>
+        <button class="botao" id="btn-adicionar">Adicionar</button>
 
-    <ul>
-        <li>
-            <span>Tarefa 1</span>
-            <button>x</button>
-        </li>
-        <li>
-            <span>Tarefa 2</span>
-            <button>x</button>
-        </li>
-        <li>
-            <span>Tarefa 3</span>
-            <button>x</button>
-        </li>
-    </ul>
-    <button class="botao">Limpar</button>
+        <div class="caixa">
+            <ul id="lista">
+                <li>
+                    <span>Tarefa 1</span>
+                    <button class="excluir">x</button>
+                </li>
+                          </ul>
+            <button class="botao bt-azul">Limpar</button>
+        </div>
+    </main>
+    <script src="script.js" ></script>
 </body>
-</main>
+
 </html>
