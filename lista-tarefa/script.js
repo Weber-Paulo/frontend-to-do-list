@@ -1,2 +1,5 @@
-console.log ('Ola')
-alert('hey')
+const inputTarefa = document.getElementById("tarefa-nova")
+
+function adicionarTarefa(){
+    console.log('Funcao')
+}
