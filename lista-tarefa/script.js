@@ -16,7 +16,7 @@ function adicionarTarefa() {
 const botaoAdicionar = document.querySelector("#btn-adicionar")
 botaoAdicionar.addEventListener("click", adicionarTarefa)
 
-function limparLista(){
+function limparLista() {
     const lista = document.querySelector("#lista");
     lista.innerHTML = ""
 }
